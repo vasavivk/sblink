@@ -17,8 +17,8 @@ class Var(object):
     PORT = 8080
     BIND_ADDRESS = "0.0.0.0"
     PING_INTERVAL = 1200
-    HAS_SSL = 'true'
-    NO_PORT = "true"
+    HAS_SSL = true
+    NO_PORT = true
     HASH_LENGTH = 6
     FQDN = BIND_ADDRESS
     URL = "http{}://{}{}/".format(
