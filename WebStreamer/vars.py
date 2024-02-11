@@ -20,7 +20,7 @@ class Var(object):
     HAS_SSL = "y"
     NO_PORT = "y"
     HASH_LENGTH = 6
-    FQDN ="https://streamlintgweb-cdd83d7eb771.herokuapp.com"
+    FQDN ="streamlintgweb-cdd83d7eb771.herokuapp.com"
     URL = "http{}://{}{}/".format(
             "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
         )
