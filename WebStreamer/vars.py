@@ -10,10 +10,10 @@ class Var(object):
     PORT = 8080
     BIND_ADDRESS = "0.0.0.0"
     PING_INTERVAL = 1200
-    HAS_SSL = "y"
+    HAS_SSL = "0"
     NO_PORT = "y"
     HASH_LENGTH = 6
-    FQDN = "streamlintgweb-cdd83d7eb771.herokuapp.com"
+    FQDN = "dls.thekvt.eu.org"
     URL = "http{}://{}{}/".format(
             "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
         )
