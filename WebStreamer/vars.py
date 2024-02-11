@@ -14,7 +14,7 @@ class Var(object):
     SLEEP_THRESHOLD = 20  # 1 minte
     WORKERS = 60  # 6 workers = 6 commands at once
     BIN_CHANNEL = "-1002105902998"  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
-    PORT = 8080
+    PORT = 8181
     BIND_ADDRESS = "0.0.0.0"
     PING_INTERVAL = 1200
     HAS_SSL = "y"
