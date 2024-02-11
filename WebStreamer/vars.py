@@ -15,12 +15,12 @@ class Var(object):
     WORKERS = 60  # 6 workers = 6 commands at once
     BIN_CHANNEL = "-1002105902998"  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
     PORT = 8080
-    BIND_ADDRESS = "https://streamlintgweb-cdd83d7eb771.herokuapp.com"
+    BIND_ADDRESS = "0.0.0.0"
     PING_INTERVAL = 1200
     HAS_SSL = "y"
     NO_PORT = "y"
     HASH_LENGTH = 6
-    FQDN = BIND_ADDRESS
+    FQDN ="https://streamlintgweb-cdd83d7eb771.herokuapp.com"
     URL = "http{}://{}{}/".format(
             "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
         )
